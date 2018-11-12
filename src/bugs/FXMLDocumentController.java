@@ -92,9 +92,9 @@ public class FXMLDocumentController implements Initializable {
 
         //Seta combo box do sistema.
         ObservableList<String> comboSistema = FXCollections.observableArrayList(
-                        "TOTVS",
-                        "SIS",
-                        "WTS"
+                        "Moodle",
+                        "SIA",
+                        "IFRS"
                 );
         system_group.setItems(comboSistema);
 
